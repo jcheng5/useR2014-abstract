@@ -11,9 +11,9 @@ keywords: web applications, interactive, reactive programming, shiny
 bibliography: bibliography.bib
 output: rticles::use_r_abstract
 ---
-\proglang{R} has long been an excellent platform for writing reports, thanks to tools like `Sweave` (and more recently, \pkg{knitr} and \pkg{rmarkdown}). But these tools have focused primarily on generating static artifacts, like PDF and HTML documents. If a reader of a report is interested in tweaking any of the parameters used, or providing their own data to be subjected to the same analysis, it could not be done without going back to the report author and asking them to modify and recompile the report.
+\proglang{R} has long been an excellent platform for writing reports, thanks to tools like `Sweave` (and more recently, \pkg{knitr} and \pkg{rmarkdown}). But these tools have focused primarily on generating static artifacts, like PDF and HTML documents. As a reader of the report, it's impossible to tweak any of the parameters used, or provide your own data to be subjected to the same analysis, without going back to the report author and asking them to modify and recompile the report.
 
-In contrast, the \pkg{shiny} package makes it easy for \proglang{R} users to create interactive reports, in the form of web applications. Shiny has built-in functions that:
+In contrast, the \pkg{shiny} package makes it easy for \proglang{R} users to create interactive artifacts, in the form of web applications. Shiny has built-in functions that:
 
 * Create input widgets like sliders, numeric inputs, and dropdowns
 * Include output widgets for graphical, textual, and tabular data
