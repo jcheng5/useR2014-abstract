@@ -13,13 +13,13 @@ output: rticles::use_r_abstract
 ---
 \proglang{R} has long been an excellent platform for writing reports, thanks to tools like `Sweave` (and more recently, \pkg{knitr} and \pkg{rmarkdown}). But these tools have focused primarily on generating static artifacts, like PDF and HTML documents. If a reader of a report is interested in tweaking any of the parameters used, or providing their own data to be subjected to the same analysis, it could not be done without going back to the report author and asking them to modify and recompile the report.
 
-In contrast, the \pkg{shiny} package makes it easy for \proglang{R} users to create interactive reports, in the form of web applications. Shiny has built-in functions so you can:
+In contrast, the \pkg{shiny} package makes it easy for \proglang{R} users to create interactive reports, in the form of web applications. Shiny has built-in functions that:
 
 * Create input widgets like sliders, numeric inputs, and dropdowns
 * Include output widgets for graphical, textual, and tabular data
 * Lay out these widgets and any other content using grids, tabs, navigation lists
 
-No knowledge of web technologies is necessary, but Shiny users who do know HTML and JavaScript can extend the framework with new types of input/output widgets and visual themes. These Shiny extensions can then be bundled into \proglang{R} packages and easily reused by other Shiny users.
+No knowledge of web technologies is necessary, but Shiny users who do know HTML and JavaScript can extend the framework with new types of input/output widgets and visual themes. These Shiny extensions can then be bundled into \proglang{R} packages for easy reuse by other Shiny users.
 
 This talk will illustrate just how easy it is to write Shiny applications, then show some of the interesting ways we have been improving and extending Shiny.
 
